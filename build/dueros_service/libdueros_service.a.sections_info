@@ -1,0 +1,299 @@
+In archive /home/radev1/Documents/1.RA-DevProjects/wavPlayEso/pipeline_sdcard_wav/build/dueros_service/libdueros_service.a:
+
+esp_audio_device_info.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.get_firmware_version 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.duer_init_device_info 00000018  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000054  2**0
+                  ALLOC
+  5 .rodata.str1.4 00000051  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.get_firmware_version 00000014  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.duer_init_device_info 0000002c  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .data.dev_info_ops 00000004  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+  9 .rodata.g_system_static_info 00000074  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .debug_frame  00000040  00000000  00000000  00000160  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_info   000002a0  00000000  00000000  000001a0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_abbrev 00000164  00000000  00000000  00000440  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    00000040  00000000  00000000  000005a4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_aranges 00000028  00000000  00000000  000005e4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_ranges 00000018  00000000  00000000  0000060c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_line   00000201  00000000  00000000  00000624  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_str    0000033c  00000000  00000000  00000825  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .comment      0000003b  00000000  00000000  00000b61  2**0
+                  CONTENTS, READONLY
+ 19 .xtensa.info  00000038  00000000  00000000  00000b9c  2**0
+                  CONTENTS, READONLY
+ 20 .xt.lit       00000010  00000000  00000000  00000bd4  2**0
+                  CONTENTS, RELOC, READONLY
+ 21 .xt.prop      00000084  00000000  00000000  00000be4  2**0
+                  CONTENTS, RELOC, READONLY
+
+duer_audio_wrapper.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._http_stream_event_handle 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_audio_state_task 0000003c  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.setup_player 000000e0  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.duer_dcs_init 00000044  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.duer_audio_wrapper_pause 0000001c  00000000  00000000  0000019c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.duer_audio_wrapper_get_state 00000008  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.duer_dcs_listen_handler 00000014  00000000  00000000  000001c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.duer_dcs_stop_listen_handler 00000014  00000000  00000000  000001d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.duer_dcs_volume_set_handler 00000028  00000000  00000000  000001e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.duer_dcs_volume_adjust_handler 0000002c  00000000  00000000  00000210  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.duer_dcs_mute_handler 00000028  00000000  00000000  0000023c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.duer_dcs_get_speaker_state 00000024  00000000  00000000  00000264  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.duer_dcs_speak_handler 00000028  00000000  00000000  00000288  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.duer_dcs_audio_play_handler 0000002c  00000000  00000000  000002b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.duer_dcs_audio_stop_handler 00000034  00000000  00000000  000002dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.duer_dcs_audio_pause_handler 00000024  00000000  00000000  00000310  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.duer_dcs_audio_resume_handler 00000020  00000000  00000000  00000334  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.duer_dcs_audio_get_play_progress 00000024  00000000  00000000  00000354  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.duer_dcs_get_player_type 00000004  00000000  00000000  00000378  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.duer_dcs_set_player_type 00000004  00000000  00000000  0000037c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.duer_dcs_audio_active_paused 00000014  00000000  00000000  00000380  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.duer_dcs_audio_active_play 00000014  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.duer_dcs_audio_active_previous 00000014  00000000  00000000  000003a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.duer_dcs_audio_active_next 00000014  00000000  00000000  000003bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text         00000000  00000000  00000000  000003d0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .data         00000000  00000000  00000000  000003d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 26 .bss          00000000  00000000  00000000  000003d0  2**0
+                  ALLOC
+ 27 .text._http_stream_event_handle 00000030  00000000  00000000  000003d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .rodata.str1.4 000005ab  00000000  00000000  00000400  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .text.esp_audio_state_task 000000af  00000000  00000000  000009ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .rodata       00000058  00000000  00000000  00000a5c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .text.setup_player 000002fc  00000000  00000000  00000ab4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.duer_dcs_init 00000088  00000000  00000000  00000db0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.duer_audio_wrapper_pause 00000036  00000000  00000000  00000e38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.duer_audio_wrapper_get_state 0000001a  00000000  00000000  00000e70  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.duer_dcs_listen_handler 00000024  00000000  00000000  00000e8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.duer_dcs_stop_listen_handler 00000024  00000000  00000000  00000eb0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.duer_dcs_volume_set_handler 0000004c  00000000  00000000  00000ed4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.duer_dcs_volume_adjust_handler 00000060  00000000  00000000  00000f20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.duer_dcs_mute_handler 0000005c  00000000  00000000  00000f80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.duer_dcs_get_speaker_state 00000067  00000000  00000000  00000fdc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.duer_dcs_speak_handler 00000058  00000000  00000000  00001044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.duer_dcs_audio_play_handler 00000062  00000000  00000000  0000109c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.duer_dcs_audio_stop_handler 0000006e  00000000  00000000  00001100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.duer_dcs_audio_pause_handler 0000003e  00000000  00000000  00001170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.duer_dcs_audio_resume_handler 0000003e  00000000  00000000  000011b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.duer_dcs_audio_get_play_progress 00000055  00000000  00000000  000011f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.duer_dcs_get_player_type 0000000a  00000000  00000000  00001248  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.duer_dcs_set_player_type 0000000c  00000000  00000000  00001254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.duer_dcs_audio_active_paused 00000028  00000000  00000000  00001260  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.duer_dcs_audio_active_play 00000028  00000000  00000000  00001288  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.duer_dcs_audio_active_previous 00000028  00000000  00000000  000012b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.duer_dcs_audio_active_next 00000028  00000000  00000000  000012d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .rodata.__func__$8634 0000000d  00000000  00000000  00001300  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 54 .data.is_first_time$8638 00000001  00000000  00000000  0000130d  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 55 .bss.audio_pos 00000004  00000000  00000000  00001310  2**2
+                  ALLOC
+ 56 .bss.player_pause 00000004  00000000  00000000  00001310  2**2
+                  ALLOC
+ 57 .bss.duer_playing_type 00000004  00000000  00000000  00001310  2**2
+                  ALLOC
+ 58 .bss.s_mutex  00000004  00000000  00000000  00001310  2**2
+                  ALLOC
+ 59 .debug_frame  00000250  00000000  00000000  00001310  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 60 .debug_info   00002009  00000000  00000000  00001560  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 61 .debug_abbrev 0000038b  00000000  00000000  00003569  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 62 .debug_loc    0000030d  00000000  00000000  000038f4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 63 .debug_aranges 000000d8  00000000  00000000  00003c01  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 64 .debug_ranges 000000c8  00000000  00000000  00003cd9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 65 .debug_line   00000b99  00000000  00000000  00003da1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 66 .debug_str    00001901  00000000  00000000  0000493a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 67 .comment      0000003b  00000000  00000000  0000623b  2**0
+                  CONTENTS, READONLY
+ 68 .xtensa.info  00000038  00000000  00000000  00006276  2**0
+                  CONTENTS, READONLY
+ 69 .xt.lit       000000c0  00000000  00000000  000062ae  2**0
+                  CONTENTS, RELOC, READONLY
+ 70 .xt.prop      0000066c  00000000  00000000  0000636e  2**0
+                  CONTENTS, RELOC, READONLY
+
+dueros_service.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.duer_que_send 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.dueros_start 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.dueros_stop 00000008  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.dueros_connect 00000008  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.dueros_disconnect 00000008  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.dueros_destroy 00000008  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.report_info_task 00000018  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.duer_event_hook 00000060  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.duer_login 00000034  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.dueros_task 000000ec  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.dueros_service_state_get 00000008  00000000  00000000  000001fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.dueros_service_create 0000001c  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text         00000000  00000000  00000000  00000220  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .data         00000000  00000000  00000000  00000220  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 14 .bss          00000000  00000000  00000000  00000220  2**0
+                  ALLOC
+ 15 .text.duer_que_send 0000002c  00000000  00000000  00000220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.dueros_start 00000022  00000000  00000000  0000024c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.dueros_stop 00000022  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.dueros_connect 00000022  00000000  00000000  00000294  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.dueros_disconnect 00000022  00000000  00000000  000002b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.dueros_destroy 00000022  00000000  00000000  000002dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .rodata.str1.4 0000035a  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .text.report_info_task 00000032  00000000  00000000  0000065c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.duer_event_hook 000000d6  00000000  00000000  00000690  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.duer_login 00000070  00000000  00000000  00000768  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.dueros_task 0000027e  00000000  00000000  000007d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.dueros_service_state_get 00000012  00000000  00000000  00000a58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .rodata       0000002c  00000000  00000000  00000a6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 28 .text.dueros_service_create 0000004b  00000000  00000000  00000a98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .bss.duer_msg$9497 00000010  00000000  00000000  00000ae4  2**2
+                  ALLOC
+ 30 .rodata.__func__$9494 0000000c  00000000  00000000  00000ae4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .bss.duer_serv_handle 00000004  00000000  00000000  00000af0  2**2
+                  ALLOC
+ 32 .bss.duer_login_success 00000001  00000000  00000000  00000af0  2**0
+                  ALLOC
+ 33 .debug_frame  00000130  00000000  00000000  00000af0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_info   00001a33  00000000  00000000  00000c20  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_abbrev 0000033e  00000000  00000000  00002653  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 36 .debug_loc    000002a1  00000000  00000000  00002991  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_aranges 00000078  00000000  00000000  00002c32  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_ranges 00000068  00000000  00000000  00002caa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_line   000008cd  00000000  00000000  00002d12  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_str    00000f28  00000000  00000000  000035df  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 41 .comment      0000003b  00000000  00000000  00004507  2**0
+                  CONTENTS, READONLY
+ 42 .xtensa.info  00000038  00000000  00000000  00004542  2**0
+                  CONTENTS, READONLY
+ 43 .xt.lit       00000060  00000000  00000000  0000457a  2**0
+                  CONTENTS, RELOC, READONLY
+ 44 .xt.prop      000003f0  00000000  00000000  000045da  2**0
+                  CONTENTS, RELOC, READONLY
+
+duer_profile.txt.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .rodata.embedded 00000001  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
